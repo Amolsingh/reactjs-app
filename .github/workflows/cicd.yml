@@ -16,7 +16,7 @@ jobs:
       - name: Build Docker Image
         run: docker build -t Amolsingh/reactjs-app .
       - name: Publish image to docker hub
-        run: docker push Amolsingh/reactjs-app:latest   
+        run: docker push amolsingh134/reactjs-app:latest   
 
   deploy: 
     needs: build
